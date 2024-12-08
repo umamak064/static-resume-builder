@@ -1,0 +1,98 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #aed9e3;
+  }
+  
+  h1{
+    text-align: center;
+    color: #2d2d2d;
+  }
+  
+ form{
+  max-width: 600px;
+  margin: auto;
+  background-color: #ddd;
+  box-shadow: 0 4px 8px rgba(0,0,0, 0.8);
+  padding: 20px;
+ }
+  
+ fieldset{
+  border: 2px solid rgb(10, 10, 87);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+
+ }
+ legend{
+  font-weight: bold;
+  color: black;
+  text-align: left;
+
+ }
+ label{
+  display: block;
+  margin-top: 10px;
+
+ }
+ input,textarea{
+  width: calc(100% - 1px);
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid black;
+  border-radius: 3px;
+  box-sizing: border-box;
+ }
+ button{
+  display: inline-block;
+  width: 200px;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-right: 10px; /* Space between buttons */
+ }
+ #submit{
+  background-color: rgb(17, 81, 185);
+  color: aliceblue;
+ }
+ #submit:hover{
+  background-color: rgb(6, 13, 48);
+  color: aliceblue;
+ }
+ #reset{
+  background-color: #9d9a9a;
+  color: #000000;
+ }
+ 
+ #reset:hover{
+  background-color: #2b2929;
+  color: #ece6e6;
+ }
+ body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+h1 {
+  text-align: center;
+}
+#resume {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+.resume-section {
+  margin-bottom: 15px;
+}
+.resume-section h2 {
+  border-bottom: 1px solid #333;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
